@@ -27,7 +27,7 @@ int main()
 		printf("\n");
 	}
 	
-	printf("Konec porgramu ... :-)");
+	printf("Konec programu ... :-)");
 	getchar();
 	getchar();
 }
