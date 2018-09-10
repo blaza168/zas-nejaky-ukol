@@ -5,12 +5,7 @@ int main()
 	int height = 1;
 	printf("Zadej vysku: ");
 	
-	do {
-		if (height % 2 == 0) {
-			printf("Cislo musi byt liche\n");
-		}
-		scanf("%d", &height);
-	} while (height % 2 == 0);
+	scanf("%d", &height);
 	
 	for (int i = 1; i <= height; i++) {
 		
