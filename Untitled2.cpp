@@ -3,7 +3,6 @@
 int main()
 {
 	int height = 1;
-	int stars = 1;
 	printf("Zadej vysku: ");
 	
 	do {
@@ -19,11 +18,11 @@ int main()
 			printf(" ");
 		}
 		
+		int stars = i * 2 - 1;
 		for (int k = 0; k < stars; k++) {
 			printf("*");
 		}
 		
-		stars += 2;
 		printf("\n");
 	}
 	
